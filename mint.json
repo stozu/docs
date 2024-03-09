@@ -19,11 +19,19 @@
     {
       "name": "Support",
       "url": "mailto:support@stozu.net"
+    },
+    {
+      "name": "Discord",
+      "url": "https://discord.gg/stozu"
+    },
+    {
+      "name": "Panel",
+      "url": "https://panel.stozu.net"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Get started",
+    "url": "https://dash.stozu.net"
   },
   "tabs": [
     {
