@@ -1,0 +1,34 @@
+<Note>This guide presumes you are currently using a computer, running Windows, macOS, or Linux. You can also do the same on a mobile device, tho it is harder, and this guide will not cover it.</Note>
+
+# Okay, now, we're going to see how to manage your server's files.
+It's not hard, tho you'll need some patience and time.
+First, you need to establish which file transfer protocol you want to use.
+
+There's two file transfer protocols on Stozu:
+1. SFTP (Shell File Transfer Protocol): Will allow you to copy-paste files very easily from your computer, and manage them on your server. You'll need a computer for it, as it's hard to do it on phone.
+2. Panel: You can send files directly to your server using the built in files tab in your server's panel. Note that it'll be a bit slower and might not always work for big files (> ~100MB), but it has a built in file editor.
+
+## 1: SFTP
+<Info>In this tutorial, we're going to use the SFTP Client "FileZilla". We use it as it's one of the most known and easiest for first-hand users. However, nothing stops you from installing another one, and using it. You can download FileZilla for free [here](https://filezilla-project.org/download.php?type=client).</Info>
+
+First, install FileZilla for your current OS (it's compatible with Linux, macOS and Windows).
+Then, open the app. It's going to show a welcome prompt, you can close it.
+Then, click at the top on the little server icon (see image) 
+<img src="/images/filezilla.png" alt="Filezilla opened on the top left" />
+Then, click on the bottom on "New Site". Give it a friendly name, like Stozu SFTP or anything you want. Then, on the right, change "FTP" to "SFTP".
+On your panel of your server, click on Settings on the right hand menubar, then copy the username, and server address.
+Back to FileZilla, for host, put the server address (without sftp://, and :2022), and for the port put 2022.
+for the Username, put the username on the settings page, and for the password, put your Stozu's password.
+After that's done, you're ready to rock! Hit the Connect button, and you should see on the right side of fileZilla your server's files.
+Now, you can copy paste, import files, and do anything you would want to do.
+
+**If you have any issues or questions using SFTP, don't hesitate to ask on Discord. We'll be happy to help!**
+
+## 2: Panel
+<Info>This will be the way you would want to do it if you're on mobile, chromeOS, or you can't install apps for x reason.</Info>
+
+Okay, so this will be easier than SFTP. Go on your server's panel page, and click on Files from the right hand menubar.
+On that page, you'll be able to drag'n-drop files, create files/folders, upload files, or even edit files via the builtin text editor.
+With that said, it is quite limited as files above 100 MB will have a bit of issues such as non being able to upload, or edit.
+
+##### and that's it 🔥
