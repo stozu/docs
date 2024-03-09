@@ -58,22 +58,30 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "",
       "pages": [
         "introduction",
-        "quickstart",
-        "development"
+        "troubleshooting",
+        "informations"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "General",
+      "pages": []
+    },
+    {
+      "group": "File Management",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "file-mgmt",
+        "backup"
+      ]
+    },
+    {
+      "group": "Support",
+      "pages": [
+        "send-mc-logs",
+        "tickets",
+        "support-common-mc-errors"
       ]
     }
   ],
