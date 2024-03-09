@@ -74,16 +74,16 @@
     {
       "group": "File Management",
       "pages": [
-        "file-mgmt",
-        "backup"
+        "main/file-management/file-mgmt",
+        "main/file-management/backup"
       ]
     },
     {
       "group": "Support",
       "pages": [
-        "send-mc-logs",
-        "tickets",
-        "support-common-mc-errors"
+        "main/support/send-mc-logs",
+        "main/support/tickets",
+        "main/support/support-common-mc-errors"
       ]
     }
   ],
