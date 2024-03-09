@@ -81,8 +81,8 @@
     {
       "group": "Support",
       "pages": [
-        "main/support/ticket",        
         "main/support/send-mc-logs",
+        "main/support/ticket", 
         "main/support/support-common-mc-errors"
       ]
     }
