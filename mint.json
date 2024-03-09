@@ -85,5 +85,10 @@
     "reddit": "https://www.reddit.com/user/StozuNodes",
     "github": "https://github.com/stozu",
     "tiktok": "https://www.tiktok.com/@stozu.net"
+  },
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": true,
+    "raiseIssue": true
   }
 }
