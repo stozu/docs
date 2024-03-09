@@ -67,7 +67,9 @@
     },
     {
       "group": "General",
-      "pages": []
+      "pages": [
+        "404"
+      ]
     },
     {
       "group": "File Management",
